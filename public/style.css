@@ -1,0 +1,127 @@
+body {
+  background-color: #f3f7fa; /* Light blue-gray background */
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Login form styles */
+form {
+  background-color: #fff; /* White form background */
+  border: 2px solid #0077b6; /* Blue border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.09); /* Subtle shadow */
+  width: 320px;
+  padding: 32px;
+  margin: 60px auto; /* Center form */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #0077b6;
+  font-size: 1.4rem;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 94%;
+  padding: 8px 10px;
+  margin-bottom: 18px;
+  border: 1px solid #b0c4de;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 8px 0;
+  width: 100%;
+  background-color: #0077b6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background-color: #005f89;
+}
+
+/* Shared error message style */
+.error-message {
+  color: #e63946;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 1rem;
+}
+.error {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+}
+/* Home page styles */
+.center-message {
+  margin-top: 32px;
+  text-align: center;
+  font-size: 1.3rem;
+  color: #006494;
+}
+
+/* .logout-btn {
+  width: 120px;
+  padding: 10px 0;
+  margin-bottom: 24px;
+  background-color: #0077b6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  align-self: center;
+}
+
+.logout-btn:hover {
+  background-color: #005f89;
+}
+.logout-button {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  width: 100px;
+}
+
+.logout-button:hover {
+  background-color: #0056b3;
+} */
+ .logout-button {
+  display: inline-block;
+  background-color: #ff0022;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  width: 100px;
+  text-decoration: none;
+}
+
+.logout-button:hover {
+  background-color: #0056b3;
+}
